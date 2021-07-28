@@ -1,13 +1,20 @@
 <?php
 
+    include_once "wp-config.php";
+    
+    
+    
+    $servername = DB_HOST;
+    $username = DB_USER;
+    $password = DB_PASSWORD;
+    $database = DB_NAME;
+
     
 
-
-
-    $servername = "localhost";
-    $username = "root";
-    $password = "1";
-    $database = 'test';
+//     $servername = "localhost";
+//     $username = "root";
+//     $password = "1";
+//     $database = 'test';
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
     
